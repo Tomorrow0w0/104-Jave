@@ -12,12 +12,12 @@ public class B10 {
 		if(X==1){
 			double  B = (H-170)*0.6+62;
 			
-			System.out.println("男生標準體重："+ B);}
+			System.out.println("你標準體重："+ B);}
 
 		if(X==2){
 			double  G = (H-158)*0.5+52;
 			
-			System.out.println("女生標準體重："+ G);}
+			System.out.println("妳標準體重："+ G);}
 		
 	}
 
