@@ -5,9 +5,9 @@ public class B14 {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		System.out.println("請輸入身高(cm)");
-		double H = scn.nextInt();
+		Double H = scn.nextDouble();
 		System.out.println("請輸入體重(kg)");
-		double W = scn.nextInt();
+		Double W = scn.nextDouble();
 		
 		double I = H / 2.54;
 		double S = W / 0.454;
