@@ -14,8 +14,8 @@ public class B12 {
 		int End=Ch+E+C;
 		int End2=(Ch+E+C)/3;
 		
-		System.out.print("總成績為"+End);
-		System.out.print("每科平均"+End2);
+		System.out.println("總成績為"+End);
+		System.out.println("每科平均"+End2);
 		
 		
      
