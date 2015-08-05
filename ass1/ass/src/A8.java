@@ -10,9 +10,14 @@ public class A8 {
 		Float A = scn.nextFloat();
 		System.out.print("½Ð¿é¤JB­È");
 		Float B = scn.nextFloat();
-		if(A>B){
-			System.out.print(A+">"+B);
-		}
+		if(A>B){System.out.print(A+">"+B);}
+		
+		else if(A<B){System.out.print(A+"<"+B);}
+		
+		else{System.out.print(A+"="+B);}
+			
+		
+		
 
 		
 		
