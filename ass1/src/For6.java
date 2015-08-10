@@ -15,15 +15,6 @@ public class For6 {
 		   }
 			    System.out.println();    
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

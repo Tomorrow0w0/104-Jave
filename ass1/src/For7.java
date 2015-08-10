@@ -24,33 +24,7 @@ public class For7 {
 					
 		       System.out.println("");
 					
-		    }			
-					
-			
+		    }		
 		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			       
-		}
-		
-}	
-		
-	
-
-
+	}
+}
