@@ -19,11 +19,12 @@ public class Array1 {
 		}
 		
 		 
-		int	j = 1;
-        while(j<=3){
-        	System.out.println("請猜有多少個偶數");
-           
+		int	j = 0;
+        while(j<3){
+        	
+         System.out.println("請猜有多少個偶數");
           int k=scn.nextInt();
+          
          if(k==count){
         		System.out.println("恭喜你猜對了");
               break;
@@ -33,9 +34,9 @@ public class Array1 {
         	 System.out.println("你輸了");}	
          
               j++;
-        
+              
         }
-     
+            System.out.println("遊戲結束");
      
      
      
