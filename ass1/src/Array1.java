@@ -26,26 +26,27 @@ public class Array1 {
           int k=scn.nextInt();
           
          if(k==count){
-        		System.out.println("恭喜你猜對了");
+        		System.out.println("恭喜你猜對了");  
+        		for(int i=0;i<10;i++){
+        			System.out.println(date[i]+"\t");
+        			}
               break;
          
          }else{
         	 
         	 System.out.println("你輸了");}	
-         
+              for(int i=0;i<10;i++){
+ 			System.out.println(date[i]+"\t");
+ 			}
               j++;
               
         }
+		for(int i=0;i<10;i++){
+			System.out.println(date[i]+"\t");
+			}
             System.out.println("遊戲結束");
-     
-     
-     
-     
-     
-     
-     
-     
-     
+            
+
 		
 	}
 
