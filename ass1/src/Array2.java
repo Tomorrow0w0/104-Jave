@@ -32,25 +32,31 @@ public class Array2 {
 			}
 		}
 
-		int j = 0;
-		while (j < 3) {
+		int	j = 0;
+        while(j<3){
+        	
+         System.out.println("請猜有多少個偶數");
+          int k=scn.nextInt();
+          
+         if(k==count){
+        		System.out.println("恭喜你猜對了");  
+        		for( i=0;i<10;i++){
+        			System.out.println(date[i]+"\t");
+        			}
+              break;
+         
+         }else{
+        	 
+        	 System.out.println("你輸了");}	
+              for( i=0;i<10;i++){
+ 			System.out.println(date[i]+"\t");
+ 			}
+              j++;
+              
+        }
 
-			System.out.println("請猜有多少個偶數");
-			int k = scn.nextInt();
-
-			if (k == count) {
-				System.out.println("恭喜你猜對了");
-				break;
-
-			} else {
-
-				System.out.println("你輸了");
-			}
-
-			j++;
-
-		}
-		System.out.println("遊戲結束");
+            System.out.println("遊戲結束");
+            
 
 	}
 

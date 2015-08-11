@@ -41,9 +41,7 @@ public class Array1 {
               j++;
               
         }
-		for(int i=0;i<10;i++){
-			System.out.println(date[i]+"\t");
-			}
+
             System.out.println("¹CÀ¸µ²§ô");
             
 
