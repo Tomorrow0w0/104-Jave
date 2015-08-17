@@ -18,7 +18,7 @@ public class While3 {
 			
 		}
 		
-		    System.out.print(m+"´ÊÀs²´¾ð");
+		 System.out.print(m+"´ÊÀs²´¾ð");
 		
 		
 		

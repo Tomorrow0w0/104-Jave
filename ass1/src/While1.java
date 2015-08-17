@@ -14,7 +14,7 @@ public class While1 {
             m++;
             System.out.println(m+"小時雨量"+s);   
        }
-		    System.out.print(m+"水庫滿位");
+		    System.out.print(m+"小時水庫滿位");
 		
 		
 		

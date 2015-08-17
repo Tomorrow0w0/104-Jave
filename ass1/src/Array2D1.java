@@ -55,11 +55,9 @@ public class Array2D1 {
 		    }
 		  
 		}
-		 		
-
+		 
 		
-		
-		 System.out.println("全班成績如下");
+		System.out.println("全班成績如下");
 			for( i=0;i<n;i++){
 			 System.out.println(name[i]+" "+data[i][0]+" "+data[i][1]+" "+data[i][2]+"個人平均 "+data[i][3]);
 				    

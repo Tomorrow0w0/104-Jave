@@ -15,7 +15,7 @@ public class B8 {
 
 		if(A<=100 && A>97){System.out.println("Θ罿单琌: A+");}
 		
-		if(A<=97 && A>=94){System.out.println("Θ罿单琌:A");}
+		if(A<=97 && A>=94){System.out.println("Θ罿单琌: A");}
 		 
 		if(A<94 && A>=90){System.out.println("Θ罿单琌: A-");}
 		 

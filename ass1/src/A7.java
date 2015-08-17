@@ -10,6 +10,7 @@ public class A7 {
 		Float C = scn.nextFloat();
 		Float F = C*9/5+32;
 		System.out.print("µØ¤ó¬°"+F);
+		
 				
 		
 		

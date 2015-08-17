@@ -25,9 +25,9 @@ public class Array2 {
 
 			}
 			if (flag == false) {
-				if (date[i] % 2 == 0) {
+			   if (date[i] % 2 == 0) {
 					count++;
-				}
+				 }
 				i++;
 			}
 		}
