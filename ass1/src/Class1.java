@@ -6,16 +6,22 @@ public class Class1 {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("請輸入次數");
 		int s = scn.nextInt();
-		item user[] = new item[s];
+		B user[] = new B[s];
 		System.out.println("請輸入名稱數量價格");
 		for (int i = 0; i < s; i++) {
 			String a = scn.next();
 			int b = scn.nextInt();
 			int c = scn.nextInt();
-			user[i] = new item(a, b, c);
+			user[i] = new B(a, b, c);
 		}
-		invoice store = new invoice("台中市霧峰區柳豐路500號", "04-23323456 #6101",
-				"04-23233876");
+
+		String str = "abcdefgabc"; 
+		System.out.println("請輸入本店:地址      電話[住家電話前面+(0#)]  傳真");
+		A store = new A(scn.next(),str=scn.next(),scn.next());
+		 if(str.matches("[0-9]{4}[0-9]{6}")) 
+	            System.out.println("電話格式正確"); 
+	        else 
+	            System.out.println("電話格式錯誤");
 		System.out.println("             發票(亞洲資工站)");
 		System.out.println("地址:" + store.address);
 		System.out.println("電話:" + store.tel);
@@ -33,24 +39,24 @@ public class Class1 {
 	}
 }
 
-class invoice {
+class A {
 	public String address;
 	public String tel;
 	public String fax;
 
-	public invoice(String add1, String tel1, String fax1) {
-		address = add1;
-		tel = tel1;
-		fax = fax1;
+	public A(String add, String t, String f) {
+		address = add;
+		tel = t;
+		fax = f;
 	}
 }
 
-class item {
+class B {
 	public int number;
 	public String name;
 	public float prise;
 
-	public item(String name1, int num, float pri) {
+	public B(String name1, int num, float pri) {
 		number = num;
 		name = name1;
 		prise = pri;
