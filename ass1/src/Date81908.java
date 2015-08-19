@@ -17,7 +17,7 @@ public class Date81908 {
 		}
 		
 		if(n>1200){
-			 end = n*0.5*0.79;
+			 end = n*0.79;
 		}
 	
 		System.out.println("電話費"+end+"元");
